@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tomato 2
+* source:	https://sketchfab.com/3d-models/tomato-2-201d42a9e5e54f1b836eff39a892ed88
+* author:	Moshe Caine (https://sketchfab.com/mosheca)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tomato 2" (https://sketchfab.com/3d-models/tomato-2-201d42a9e5e54f1b836eff39a892ed88) by Moshe Caine (https://sketchfab.com/mosheca) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
