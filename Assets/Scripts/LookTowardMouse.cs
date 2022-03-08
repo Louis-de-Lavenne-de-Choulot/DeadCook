@@ -10,9 +10,11 @@ public class LookTowardMouse : MonoBehaviour {
     public int dash;
     private float cldwnRate = 1.5f;
     private float cooldown = 0f;
+    private Vector3 lastPos;
 
     void Start () 
     {
+        lastPos = transform.position;
         anim = gameObject.GetComponent<Animator>();
         rb = gameObject.GetComponent<Rigidbody>();
     }
@@ -37,13 +39,14 @@ public class LookTowardMouse : MonoBehaviour {
 
          //Ta Daaa
         if (Input.GetKey("z") && ScreenPos != MousePos && ScreenPos2 != MousePos2){
-            if (Input.GetKeyDown("d") && cooldown < Time.time){
+            if (Input.GetKeyDown(KeyCode.LeftShift) && cooldown < Time.time){
                 rb.AddForce(transform.forward * dash);
                 rb.drag = 3;
                 cooldown = cldwnRate + Time.time;
             }
-            transform.rotation = Quaternion.Euler (new Vector3(0f,-angle+90,0f));
-            transform.position += transform.forward * Time.deltaTime * 3f;
+            rb.rotation = Quaternion.Euler (new Vector3(0f,-angle+90,0f));
+            rb.position += transform.forward * Time.deltaTime * 3f;
+            Camera.main.transform.position += transform.forward * Time.deltaTime * 2F;
             anim.SetBool("Run", true);
         }else{
             anim.SetBool("Run", false);

@@ -15,7 +15,7 @@ public class Bullet : MonoBehaviour
     void Update()
     {
         if (toSee != null){
-            transform.Translate(Vector3.Normalize(toSee.position-transform.position) * 0.5F);
+            transform.Translate(Vector3.Normalize(toSee.position-transform.position) * 0.8F);
         }
         else
         {
