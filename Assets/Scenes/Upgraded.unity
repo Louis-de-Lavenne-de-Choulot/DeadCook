@@ -834,7 +834,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28648
+  m_Name: pb_Mesh28650
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1759,7 +1759,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &237965843
 Transform:
   m_ObjectHideFlags: 0
@@ -4252,7 +4252,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28862
+  m_Name: pb_Mesh28864
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5430,6 +5430,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activate: {fileID: 2092415425}
+  activateZomb: {fileID: 237965842}
+  activatePlant: {fileID: 7077361482218219448}
   anim: {fileID: 725706444}
 --- !u!95 &725706444
 Animator:
@@ -7030,7 +7032,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28802
+  m_Name: pb_Mesh28804
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8916,6 +8918,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activate: {fileID: 725706439}
+  activateZomb: {fileID: 237965842}
+  activatePlant: {fileID: 7077361482218219448}
   anim: {fileID: 1248309660}
 --- !u!1001 &1257604758
 PrefabInstance:
@@ -19213,7 +19217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &919132149181776938
 Animator:
   serializedVersion: 4
@@ -50659,7 +50663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &7077844940118570266
 GameObject:
   m_ObjectHideFlags: 0

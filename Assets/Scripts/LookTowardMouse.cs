@@ -24,7 +24,7 @@ public class LookTowardMouse : MonoBehaviour {
     {
 
          //Get the Screen positions of the object
-        Vector2 positionOnScreen = Camera.main.WorldToViewportPoint (transform.position);
+        Vector2 positionOnScreen = Camera.main.WorldToViewportPoint(transform.position);
 
          //Get the Screen position of the mouse
         Vector2 mouseOnScreen = (Vector2)Camera.main.ScreenToViewportPoint(Input.mousePosition);

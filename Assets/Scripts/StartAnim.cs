@@ -5,6 +5,8 @@ using UnityEngine;
 public class StartAnim : MonoBehaviour
 {
     public GameObject activate;
+    public GameObject activateZomb;
+    public GameObject activatePlant;
     public Animator anim;
     // Start is called before the first frame update
     void Start()
@@ -18,6 +20,8 @@ public class StartAnim : MonoBehaviour
         if(AnTime > 1.0f)
         {
             gameObject.SetActive(false);
+            activateZomb.SetActive(true);
+            activatePlant.SetActive(true);
             activate.SetActive(true);
         }
     }
