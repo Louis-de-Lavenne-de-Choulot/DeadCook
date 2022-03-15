@@ -18,7 +18,6 @@ public class GetObject : MonoBehaviour
     {
         if (Input.GetKeyDown("a") && ParentGmeObjt.transform.childCount > 0 && cooldown < Time.time){
             if (Parent2.transform.childCount == 0){
-                Debug.Log("iuiuiuiuiyiyuyhuigvguvfycftxdxd");
                 ParentGmeObjt.transform.GetChild(0).transform.SetParent(Parent2.transform);
                 Parent2.transform.GetChild(0).transform.position = Parent2.transform.position;
             }
